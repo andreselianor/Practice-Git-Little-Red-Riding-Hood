@@ -1,11 +1,15 @@
 /*/ MAIN CSS FILE /*/
 main {
-    height: 400px;
     flex-wrap: wrap;
 }
 
 section {
     display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    border: solid 1px black;
 }
 
 .images {
