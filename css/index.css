@@ -1,4 +1,4 @@
-/*/ MAIN CSS FILE /*/
+/*/ MAIN INDEX.CSS FILE /*/
 main {
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +13,12 @@ section {
     border: solid 2px lightsalmon;
 }
 
+footer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
 .images {
     height: 300px;
 }
@@ -21,12 +27,6 @@ section {
     height: 300px;
     margin: 0px 20px;
     width: 300px;
-}
-
-footer {
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
 }
 
 .footer-p {
